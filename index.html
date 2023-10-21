@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="reset.css"> -->
 </head>
 <body>
     <header>
         <nav class="nav">
             <a href="" class="textNav">INICIO</a>
             <a href="" class="textNav">NOSOTROS</a>
-            <a href="" class="textNav">PRODUCTOS</a>
-            <a href="" class="textNav">CONTACTO</a>
+            <a href="" class="textNavActive">PRODUCTOS</a>
+            <a href="" class="textNavFocus">CONTACTO</a>
         </nav>
     </header>
     <main>
@@ -23,39 +24,110 @@
             </div>
         </section>
         <section class="containerNosotros">
-            <div class="titleNosotros">NOSOTROS</div>
-            <div class="divImgNosotros">
-                <img src="media/images/GaleriaNosotros.png">
-                <img src="media/images/FondoNosotros.png">
+            <div class="titleColor titleNosotros">
+                <h2>NOSOTROS</h2>
             </div>
-            <div class="textNosotros">
-                <h3>¿QUIÉNES SOMOS</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum pellentesque leo eget euismod. Aliquam erat volutpat. Praesent elementum ultricies ipsum quis interdum. Donec ut magna auctor nibh euismod placerat nec quis nulla. Phasellus vulputate, lacus et tempor suscipit, orci mauris ornare purus, non semper tellus mi sit amet ante. Integer vitae augue massa. Integer vestibulum lectus et sem blandit tempus. Vivamus dignissim urna et enim laoreet feugiat.
-                </p>
+            <div class="divImgNosotros">
+                <div class="imgBG">
+                    <img src="media/images/GaleriaNosotros.png">
+                </div>
+                <div class="imgBGTexto">
+                    <img src="media/images/FondoNosotros.png">
+                    <div class="textNosotros">
+                        <h3>¿QUIÉNES SOMOS?</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum pellentesque leo eget euismod. Aliquam erat volutpat. Praesent elementum ultricies ipsum quis interdum. Donec ut magna auctor nibh euismod placerat nec quis nulla. Phasellus vulputate, lacus et tempor suscipit, orci mauris ornare purus, non semper tellus mi sit amet ante. Integer vitae augue massa. Integer vestibulum lectus et sem blandit tempus. Vivamus dignissim urna et enim laoreet feugiat.
+                        </p>
+                    </div> 
+                </div>
             </div>        
         </section>
         <section class="tiendas">
-            <div class="titleTiendas">NOSOTROS</div>
-            <div class="imgTiendas">
-                <img src="media/images/TiendaAeropuertoInternacional.png">
-                <div class="textTiendas">
-                    <h3>AEROPUERTO INTERNACION "SIMÓN BOLÍVAR"</h3>
-                    <P>
-                        Edo. Vargas, Venezuela
-                    </P>
-                </div>
+            <div class="titleColor titleTiendas">
+                <h2>TIENDAS</h2>
             </div>
             <div class="imgTiendas">
-                <img src="media/images/TiendaLido.png">
-                <div class="textTiendas">
-                    <h3>AEROPUERTO INTERNACION "SIMÓN BOLÍVAR"</h3>
-                    <P>
-                        Edo. Vargas, Venezuela
-                    </P>
+                <div class="boxTiendas">
+                    <img src="media/images/TiendaAeropuertoInternacional.png">
+                    <div class="textTiendas">
+                        <h3>AEROPUERTO INTERNACION "SIMÓN BOLÍVAR"</h3>
+                        <P>
+                            Edo. Vargas, Venezuela
+                        </P>
+                    </div>
+                </div>    
+                <div class="boxTiendas">
+                    <img src="media/images/TiendaLido.png">
+                    <div class="textTiendas">
+                        <h3>AEROPUERTO INTERNACION "SIMÓN BOLÍVAR"</h3>
+                        <P>
+                            Edo. Vargas, Venezuela
+                        </P>
+                    </div>
                 </div>
             </div>
         </section>
-    </main>    
+        <section class="containerImagen">
+            <div class="divContainerImagen">
+                <img src="/media/images/FotoSeccionCambiante.png">
+            </div>
+        </section>
+        <section class="productos">
+            <div class="divProductos">
+                <div class="titleColor titleProductos">
+                    <h2>PRODUCTOS</h2>
+                </div>
+                <div class="imgProductos">
+                    <div class="boxProducto">
+                        <img src="media/images/ProductosSmoothies.png">
+                        <div class="textProductos">
+                            <h3>SMOOTHIES</h3>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum pellentesque leo eget euismod. Aliquam erat volutpat. Praesent elementum ultricies ipsum quis interdum. Donec ut magna auctor nibh euismod placerat nec quis nulla. Phasellus vulputate, lacus et tempor suscipit, orci mauris ornare purus, non semper tellus mi sit amet ante. Integer vitae augue massa. Integer vestibulum lectus et sem blandit tempus. Vivamus dignissim urna et enim laoreet feugiat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="boxProducto">
+                        <img src="media/images/ProductosSmoothies.png">
+                        <div class="textProductos">
+                            <h3>WRAPS</h3>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum pellentesque leo eget euismod. Aliquam erat volutpat. Praesent elementum ultricies ipsum quis interdum. Donec ut magna auctor nibh euismod placerat nec quis nulla. Phasellus vulputate, lacus et tempor suscipit, orci mauris ornare purus, non semper tellus mi sit amet ante. Integer vitae augue massa. Integer vestibulum lectus et sem blandit tempus. Vivamus dignissim urna et enim laoreet feugiat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="boxProducto">
+                        <img src="media/images/ProductosSmoothies.png">
+                        <div class="textProductos">
+                            <h3>ENSALADAS</h3>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum pellentesque leo eget euismod. Aliquam erat volutpat. Praesent elementum ultricies ipsum quis interdum. Donec ut magna auctor nibh euismod placerat nec quis nulla. Phasellus vulputate, lacus et tempor suscipit, orci mauris ornare purus, non semper tellus mi sit amet ante. Integer vitae augue massa. Integer vestibulum lectus et sem blandit tempus. Vivamus dignissim urna et enim laoreet feugiat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="boxProducto">
+                        <img src="media/images/ProductosSmoothies.png">
+                        <div class="textProductos">
+                            <h3>JUGOS</h3>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum pellentesque leo eget euismod. Aliquam erat volutpat. Praesent elementum ultricies ipsum quis interdum. Donec ut magna auctor nibh euismod placerat nec quis nulla. Phasellus vulputate, lacus et tempor suscipit, orci mauris ornare purus, non semper tellus mi sit amet ante. Integer vitae augue massa. Integer vestibulum lectus et sem blandit tempus. Vivamus dignissim urna et enim laoreet feugiat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="button">
+            <div class="divButton">
+                <button id="cambiarEstilo" >
+                    BOTON
+                </button>
+                <div class="imgButtoon" id="elementoAfectado">
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="/index.js"></script>    
 </body>
 </html>
