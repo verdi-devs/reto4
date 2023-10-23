@@ -230,16 +230,87 @@ body{
 .button{
     display: flex;
     justify-content: center;
+    position: fixed;
+    top: 50%;   /* Posición desde arriba */
+    left: 2%;
 }
 
-#cambiarEstilo{
-    width: 3rem;
-    height: 3rem;
-    border-radius: 2rem;
+#botonCambiarEstilo{
+    width: 5rem;
+    height: 5rem;
     background-color: tomato;
+    border-radius: 50%;
     color: white;
-    padding: 5rem;
     border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botonCambiarEstilo p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.footer{
+    background-image: url('media/images/FondoFooter.png')
+}
+
+.containerFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.textFooter{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    padding: 7rem
+}
+
+.textFooter a{
+text-decoration: none;
+color: white;
+}
+
+.textFooter p{
+    width: 10rem;
+    word-wrap: break-word;
+}
+
+.iconRRSS{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0 0 0;
+}
+
+.circuloRRSS{
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+}
+
+.copy{
+    display: flex;
+    flex-direction: column;
+}
+
+.copy p{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
 }
 
 /* .parrafo{
